@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h4>User-Name</h4>
+   <ul></ul>  
+
+   <script>
+    fetch('https://jsonplaceholder.typicode.com/users')
+    .then( response => {
+        return response.json();
+    })
+    .then(data => {
+        data.forEach(user => {
+        const username = `<li>${user.name}</li>`
+        document.querySelector('ul').insertAdjacentHTML("beforeend", username);
+       })
+      
+
+    })
+    .catch(error => console.log('error'));
+   
+   </script> -->
+
+    <!-- <h3>Select a country from the drop down list</h3>
+   <label for="cars">Choose a car:</label>
+    <select name="cars" id="cars">
+    <option onkeyup="countryName()">Countries</option>
+    
+    <br><br>
+    <input type="submit" value="Submit"> -->
+
+<!-- 
+    12-2-23 -->
+    <!-- <h3>Please enter a value between 10 to 100</h3>
+    <input type="text" id="number">
+    <button type="button" onclick="testInput()">Submit</button>
+    <p id="p10"></p> !-->
+   
+    
+   
+    <!-- <script src="script.js"></script> 
+   12-4-23
+   Exception handling example
+   <h3>Please enter a value between 10 to 100</h3>
+    <input type="text" id="number">
+    <button type="button" onclick="testInput()">Submit</button>
+    <p id="p10"></p> 
+    <script>
+      function testInput(){
+     const message = document.getElementById('p10');
+     message.innerHTML = "";
+     let x = document.getElementById('number').value;
+      try{
+        if(x.trim() == "")  throw " is empty";
+        if(isNaN(x)) throw " is not a number";
+         x = Number(x);
+        if(x > 100)   throw " is too high";
+        if(x < 10)  throw " is too low";
+   
+      }
+       catch (err){
+         alert("Input"+err);
+      }
+      finally{
+        console.log('value is'+x);
+      }
+
+     }
+    </script>
+   Prototypal inheritance example
+   <h3>Prototypal inheritance</h3>
+   <script> let mobile = {
+        name: "Samsung-galaxy-s22" ,
+        batterycapacity : 3700,
+        RAM : 8,
+        storage : 128,
+        specification(){
+          console.log(`Mobile is ${this.name} it's RAM is ${this.RAM} mAh`);
+        }
+    }
+    mobile.specification();
+    
+    let mobile2 = {
+      name: "iPhone 14" ,
+      RAM : 6,
+      storage : 256,
+    }
+    mobile2.specification = mobile.specification;
+    mobile2.specification();
+
+    class&Object
+    class Bikes {
+      constructor(brand,model,price){
+        this.brand = brand;
+        this.model = model;
+        this.price =price;
+      }
+     display(){
+      console.log(`Brand of the bike is ${this.brand},it's model is ${this.model}  and it is in a price range of ${this.price} `);
+      
+     }
+    }
+    const bike = new Bikes('Royal-Enfiled','Himalayan','2.16lakh');
+    bike.display();
+    </script> -->
+   
+   <script src="script.js"></script>
+</body>
+</html>
